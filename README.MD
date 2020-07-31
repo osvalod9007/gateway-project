@@ -46,19 +46,17 @@ When the project is run if there is no data in the database, it automatically ru
 `headers: Content-Type: application/json`
 
 ```json:
+{
+  "serialNumber": "serialNumber1",
+  "name": "gw1",
+  "ipv4": "162.168.1.0",
+  "peripherals": [
     {
-        {
-            "serialNumber": "serialNumber1",
-            "name": "gw1",
-            "ipv4": "162.168.1.0",
-            "peripherals": [
-                {
-                    "uid": 9,
-                    "vendor": "Osvaldo Lopez"
-                }
-            ]
-        }
+      "uid": 9,
+      "vendor": "Osvaldo Lopez"
     }
+  ]
+}
 ```
 
 ### Create Gateway with or without peripherals
