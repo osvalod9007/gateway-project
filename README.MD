@@ -10,8 +10,10 @@ There is a .env file in the root folder that contains all definitions.
 Using the dotenv NPM package, it will load it into the process.env object.
 <b>It is recommended that you add the .env to your gitignore when cloning this project as it will contain sensitive data.</b>
 
+```
 PORT = 5000
 NONGO_URI = 'mongodb://localhost:27017/gateways-db'
+```
 
 ### Build
 
