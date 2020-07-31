@@ -59,7 +59,7 @@ When the project is run if there is no data in the database, it automatically ru
 }
 ```
 
-### Create Gateway with or without peripherals
+### Add one Peripheral to gateway
 
 [POST] http://localhost:5000/api/gateway/setPeripheral/:gatewayId
 
